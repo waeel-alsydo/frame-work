@@ -1,0 +1,119 @@
+.menu {
+    margin: 0 auto;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.menu-trigger {
+  position: absolute;
+  top: 32px;
+  left: 20px;
+  display: block;
+  width: 52px;
+  height: 43px;
+  cursor: pointer;
+  z-index: 333;
+  &:hover {
+    .menu-trigger-bar {
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+}
+.menu-trigger-bar {
+  display: block;
+  width: 40%;
+  height: 4px;
+  background-color: $w-black;
+  margin-bottom: 10px;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 0%;
+    height: 100%;
+    background-color: $w-green;
+    transition: all 0.3s cubic-bezier(.55,0,.1,1);
+  }
+  &.top {
+    width: 80%;
+  }
+  &.middle {
+    width: 80%;
+    &:before {
+      left: auto;
+      right: 0;
+    }
+  } 
+  &.bottom {
+    width: 80%;
+  }
+}
+.bar-top, .bar-middle, .bar-bottom {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+// Chenge for sidebar //
+.change .bar-top {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar-middle {
+  opacity: 0;
+}
+.change .bar-bottom {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.change .sidebar {
+  width: 20%;
+}
+.change .items {
+  margin-left: 20%;
+}
+.change .menu-trigger {
+  margin-left: 20%;
+}
+.sidebar {
+  height: 100%;
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: $w-green; 
+  overflow-x: hidden; 
+  padding-top: 10px; 
+  transition: 0.6s; 
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: $w-black;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.items,
+.menu-trigger {
+  transition: 0.6s;
+}

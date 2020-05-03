@@ -1,0 +1,219 @@
+.btn {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+}
+.btn-basic {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: $w-white;
+    border: 1px solid $w-grey;
+    background-color: $w-black;
+}
+.btn-red {
+    background-color: $w-white;
+    color: $w-red;
+    border: 1px solid $w-red;
+}
+.btn-green {
+    background-color: $w-white;
+    color: $w-green;
+    border: 1px solid $w-green;
+}
+.btn-blue {
+    background-color: $w-white;
+    color: $w-blue;
+    border: 1px solid $w-blue;
+}
+.btn-pink {
+    background-color: $w-white;
+    color: $w-pink;
+    border: 1px solid $w-pink;
+}
+.btn-black {
+    background-color: $w-white;
+    color: $w-black;
+    border: 1px solid $w-black;
+}
+.btn-brown {
+    background-color: $w-white;
+    color: $w-brown;
+    border: 1px solid $w-brown;
+}
+.btn-grey {
+    background-color: $w-white;
+    color: $w-grey;
+    border: 1px solid $w-grey;
+}
+.btn-orange {
+    background-color: $w-white;
+    color: $w-orange;
+    border: 1px solid $w-orange;
+}
+.btn-yellow {
+    background-color: $w-white;
+    color: $w-yellow;
+    border: 1px solid $w-yellow;
+}
+.btn-teal {
+    background-color: $w-white;
+    color: $w-teal;
+    border: 1px solid $w-teal;
+}
+.btn-violet {
+    background-color: $w-white;
+    color: $w-violet;
+    border: 1px solid $w-violet;
+}
+.btn-purple {
+    background-color: $w-white;
+    color: $w-purple;
+    border: 1px solid $w-purple;
+}
+.btn-bg-red {
+    background-color: $w-red;
+    color: $w-white;
+}
+.btn-bg-green {
+    background-color: $w-green;
+    color: $w-white;
+}
+.btn-bg-blue {
+    background-color: $w-blue;
+    color: $w-white;
+}
+.btn-bg-black {
+    background-color: $w-black;
+    color: $w-white;
+}
+.btn-bg-pink {
+    background-color: $w-pink;
+    color: $w-white;
+}
+.btn-bg-brown {
+    background-color: $w-brown;
+    color: $w-white;
+}
+.btn-bg-grey {
+    background-color: $w-grey;
+    color: $w-black;
+}
+.btn-bg-orange {
+    background-color: $w-orange;
+    color: $w-black;
+}
+.btn-bg-yellow {
+    background-color: $w-yellow;
+    color: $w-black;
+}
+.btn-bg-teal {
+    background-color: $w-teal;
+    color: $w-white;
+}
+.btn-bg-violet {
+    background-color: $w-violet;
+    color: $w-white;
+}
+.btn-bg-purple {
+    background-color: $w-purple;
+    color: $w-white;
+}
+.btn-hover-red:hover {
+    background-color: $w-red;
+    color: $w-white;
+    border: 1px solid $w-red;
+}
+.btn-hover-green:hover {
+    background-color: $w-green;
+    color: $w-white;
+    border: 1px solid $w-green;
+}
+.btn-hover-blue:hover {
+    background-color: $w-blue;
+    color: $w-white;
+    border: 1px solid $w-blue;
+}
+.btn-hover-white:hover {
+    background-color: $w-white;
+    color: $w-black;
+    border: 1px solid $w-white;
+}
+.btn-hover-pink:hover {
+    background-color: $w-pink;
+    color: $w-white;
+    border: 1px solid $w-pink;
+}
+.btn-hover-brown:hover {
+    background-color: $w-brown;
+    color: $w-white;
+    border: 1px solid $w-brown;
+}
+.btn-hover-grey:hover {
+    background-color: $w-grey;
+    color: $w-black;
+    border: 1px solid $w-grey;
+}
+.btn-hover-orange:hover {
+    background-color: $w-orange;
+    color: $w-black;
+    border: 1px solid $w-orange;
+}
+.btn-hover-yellow:hover {
+    background-color: $w-yellow;
+    color: $w-black;
+    border: 1px solid $w-yellow;
+}
+.btn-hover-teal:hover {
+    background-color: $w-teal;
+    color: $w-white;
+    border: 1px solid $w-teal;
+}
+.btn-hover-violet:hover {
+    background-color: $w-violet;
+    color: $w-white;
+    border: 1px solid $w-violet;
+}
+.btn-hover-purple:hover {
+    background-color: $w-purple;
+    color: $w-white $w-grey;
+    border: 1px solid $w-purple;
+}
+.btn-mini {
+    cursor: pointer;
+    font-size: 5px;
+    padding: 10px 25px;
+    border: 1px solid $w-grey;
+    border-radius: 3px;
+}
+.btn-small {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: 1px solid $w-grey;
+    border-radius: 3px;
+}
+.btn-medium {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 1px solid $w-grey;
+    border-radius: 3px;
+}
+.btn-large {
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px 25px;
+    border: 1px solid $w-grey;
+    border-radius: 3px;
+}
+.btn-big {
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px 25px;
+    border: 1px solid $w-grey;
+    border-radius: 3px;
+}

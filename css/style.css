@@ -1,0 +1,428 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| #                   Frame Work - By Waeel Alsydo                   # ||
+|| # ---------------------------------------------------------------- # ||
+|| #                  E-Mail (waeel.alsydo@gmail.com)                 # ||
+|| #------------------------------------------------------------------# ||
+|| #                       http://www.w-alsydo.com                    # ||
+|| #################################################################### ||
+\*======================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-basic {
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #FFFFFF;
+  border: 1px solid #A0A0A0;
+  background-color: #000000;
+}
+
+.btn-red {
+  background-color: #FFFFFF;
+  color: #d9534f;
+  border: 1px solid #d9534f;
+}
+
+.btn-green {
+  background-color: #FFFFFF;
+  color: #5cb85c;
+  border: 1px solid #5cb85c;
+}
+
+.btn-blue {
+  background-color: #FFFFFF;
+  color: #0275d8;
+  border: 1px solid #0275d8;
+}
+
+.btn-pink {
+  background-color: #FFFFFF;
+  color: #FF1493;
+  border: 1px solid #FF1493;
+}
+
+.btn-black {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.btn-brown {
+  background-color: #FFFFFF;
+  color: #A52A2A;
+  border: 1px solid #A52A2A;
+}
+
+.btn-grey {
+  background-color: #FFFFFF;
+  color: #A0A0A0;
+  border: 1px solid #A0A0A0;
+}
+
+.btn-orange {
+  background-color: #FFFFFF;
+  color: #FE9A76;
+  border: 1px solid #FE9A76;
+}
+
+.btn-yellow {
+  background-color: #FFFFFF;
+  color: #f0ad4e;
+  border: 1px solid #f0ad4e;
+}
+
+.btn-teal {
+  background-color: #FFFFFF;
+  color: #008080;
+  border: 1px solid #008080;
+}
+
+.btn-violet {
+  background-color: #FFFFFF;
+  color: #EE82EE;
+  border: 1px solid #EE82EE;
+}
+
+.btn-purple {
+  background-color: #FFFFFF;
+  color: #B413EC;
+  border: 1px solid #B413EC;
+}
+
+.btn-bg-red {
+  background-color: #d9534f;
+  color: #FFFFFF;
+}
+
+.btn-bg-green {
+  background-color: #5cb85c;
+  color: #FFFFFF;
+}
+
+.btn-bg-blue {
+  background-color: #0275d8;
+  color: #FFFFFF;
+}
+
+.btn-bg-black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn-bg-pink {
+  background-color: #FF1493;
+  color: #FFFFFF;
+}
+
+.btn-bg-brown {
+  background-color: #A52A2A;
+  color: #FFFFFF;
+}
+
+.btn-bg-grey {
+  background-color: #A0A0A0;
+  color: #000000;
+}
+
+.btn-bg-orange {
+  background-color: #FE9A76;
+  color: #000000;
+}
+
+.btn-bg-yellow {
+  background-color: #f0ad4e;
+  color: #000000;
+}
+
+.btn-bg-teal {
+  background-color: #008080;
+  color: #FFFFFF;
+}
+
+.btn-bg-violet {
+  background-color: #EE82EE;
+  color: #FFFFFF;
+}
+
+.btn-bg-purple {
+  background-color: #B413EC;
+  color: #FFFFFF;
+}
+
+.btn-hover-red:hover {
+  background-color: #d9534f;
+  color: #FFFFFF;
+  border: 1px solid #d9534f;
+}
+
+.btn-hover-green:hover {
+  background-color: #5cb85c;
+  color: #FFFFFF;
+  border: 1px solid #5cb85c;
+}
+
+.btn-hover-blue:hover {
+  background-color: #0275d8;
+  color: #FFFFFF;
+  border: 1px solid #0275d8;
+}
+
+.btn-hover-white:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.btn-hover-pink:hover {
+  background-color: #FF1493;
+  color: #FFFFFF;
+  border: 1px solid #FF1493;
+}
+
+.btn-hover-brown:hover {
+  background-color: #A52A2A;
+  color: #FFFFFF;
+  border: 1px solid #A52A2A;
+}
+
+.btn-hover-grey:hover {
+  background-color: #A0A0A0;
+  color: #000000;
+  border: 1px solid #A0A0A0;
+}
+
+.btn-hover-orange:hover {
+  background-color: #FE9A76;
+  color: #000000;
+  border: 1px solid #FE9A76;
+}
+
+.btn-hover-yellow:hover {
+  background-color: #f0ad4e;
+  color: #000000;
+  border: 1px solid #f0ad4e;
+}
+
+.btn-hover-teal:hover {
+  background-color: #008080;
+  color: #FFFFFF;
+  border: 1px solid #008080;
+}
+
+.btn-hover-violet:hover {
+  background-color: #EE82EE;
+  color: #FFFFFF;
+  border: 1px solid #EE82EE;
+}
+
+.btn-hover-purple:hover {
+  background-color: #B413EC;
+  color: #FFFFFF #A0A0A0;
+  border: 1px solid #B413EC;
+}
+
+.btn-mini {
+  cursor: pointer;
+  font-size: 5px;
+  padding: 10px 25px;
+  border: 1px solid #A0A0A0;
+  border-radius: 3px;
+}
+
+.btn-small {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 25px;
+  border: 1px solid #A0A0A0;
+  border-radius: 3px;
+}
+
+.btn-medium {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 25px;
+  border: 1px solid #A0A0A0;
+  border-radius: 3px;
+}
+
+.btn-large {
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px 25px;
+  border: 1px solid #A0A0A0;
+  border-radius: 3px;
+}
+
+.btn-big {
+  cursor: pointer;
+  font-size: 30px;
+  padding: 10px 25px;
+  border: 1px solid #A0A0A0;
+  border-radius: 3px;
+}
+
+.menu {
+  margin: 0 auto;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.menu-trigger {
+  position: absolute;
+  top: 32px;
+  left: 20px;
+  display: block;
+  width: 52px;
+  height: 43px;
+  cursor: pointer;
+  z-index: 333;
+}
+.menu-trigger:hover .menu-trigger-bar:before {
+  width: 100%;
+}
+
+.menu-trigger-bar {
+  display: block;
+  width: 40%;
+  height: 4px;
+  background-color: #000000;
+  margin-bottom: 10px;
+  position: relative;
+}
+.menu-trigger-bar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0%;
+  height: 100%;
+  background-color: #5cb85c;
+  transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.menu-trigger-bar.top {
+  width: 80%;
+}
+.menu-trigger-bar.middle {
+  width: 80%;
+}
+.menu-trigger-bar.middle:before {
+  left: auto;
+  right: 0;
+}
+.menu-trigger-bar.bottom {
+  width: 80%;
+}
+
+.bar-top, .bar-middle, .bar-bottom {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar-top {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar-middle {
+  opacity: 0;
+}
+
+.change .bar-bottom {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.change .sidebar {
+  width: 20%;
+}
+
+.change .items {
+  margin-left: 20%;
+}
+
+.change .menu-trigger {
+  margin-left: 20%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #5cb85c;
+  overflow-x: hidden;
+  padding-top: 10px;
+  transition: 0.6s;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.items,
+.menu-trigger {
+  transition: 0.6s;
+}
+
+.div-black {
+  width: 500px;
+  height: 125px;
+  background-color: #000;
+  padding: 15px;
+}
+
+.div-white {
+  width: 500px;
+  height: 125px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.div-black,
+.div-white,
+h2,
+.size {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
